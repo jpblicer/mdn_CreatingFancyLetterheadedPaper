@@ -18,6 +18,8 @@
     height: 297mm;
     margin: 20px auto;
     position: relative;
+    border-top: solid 1mm #000;
+    border-bottom: solid 1mm #000;
     background-image: url(top-image.png);
     background-image: url(top-image.png), url(bottom-image.png) ;
     background-repeat: no-repeat, no-repeat;
@@ -42,6 +44,8 @@
     padding: 44px 0;
     color: white;
     text-shadow: 1px 1px 1px black;
+    background-image: url(logo.png);
+    filter: drop-shadow(5px 5px 6px black);
   }
   
   /* Your CSS below here */
