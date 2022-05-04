@@ -8,11 +8,8 @@
   
   body {
     margin: 0;
-  /*Cant get both gradient and background images to show*/
-    background: linear-gradient(180deg, #ccc 0%, #fff 50%, #ccc 100%) opacity: 0;
-    background-image: url(top-image.png), url(bottom-image.png) ;
-    background-repeat: no-repeat, no-repeat;
-    background-position: top, bottom;
+    background: linear-gradient(180deg, #ccc 0%, #fff 50%, #ccc 100%);
+
   }
   
   article {
@@ -20,6 +17,9 @@
     height: 297mm;
     margin: 20px auto;
     position: relative;
+    background-image: url(top-image.png), url(bottom-image.png) ;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, bottom;
   }
   
   address {
