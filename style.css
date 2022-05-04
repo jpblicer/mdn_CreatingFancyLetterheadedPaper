@@ -8,6 +8,7 @@
   
   body {
     margin: 0;
+    background: #fff;
     background: linear-gradient(180deg, #ccc 0%, #fff 50%, #ccc 100%);
 
   }
@@ -17,6 +18,7 @@
     height: 297mm;
     margin: 20px auto;
     position: relative;
+    background-image: url(top-image.png);
     background-image: url(top-image.png), url(bottom-image.png) ;
     background-repeat: no-repeat, no-repeat;
     background-position: top, bottom;
