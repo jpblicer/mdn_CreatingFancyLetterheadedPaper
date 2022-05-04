@@ -45,9 +45,9 @@
     color: white;
     text-shadow: 1px 1px 1px black;
     background-image: url(logo.png);
-    filter: drop-shadow(5px 5px 6px black);
+    box-shadow: 5px 5px 6px #000;
+    border-radius: 70px;
+    /* filter: drop-shadow(5px 5px 6px black); */
   }
-  
-  /* Your CSS below here */
 
  
